@@ -97,7 +97,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 import os
-STATIC_ROOT =  os.path.join(BASE_DIR, '/static/')
+STATIC_ROOT =  os.path.join(BASE_DIR, 'static/')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ORIGIN_ALLOW_ALL=True
